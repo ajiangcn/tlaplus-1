@@ -19,6 +19,7 @@ import org.eclipse.core.runtime.IAdaptable;
 import org.eclipse.core.runtime.NullProgressMonitor;
 import org.eclipse.core.runtime.Platform;
 import org.eclipse.e4.core.contexts.IEclipseContext;
+import org.eclipse.e4.core.services.events.IEventBroker;
 import org.eclipse.e4.ui.model.application.ui.MElementContainer;
 import org.eclipse.e4.ui.model.application.ui.MUIElement;
 import org.eclipse.e4.ui.model.application.ui.basic.MPart;
@@ -1317,5 +1318,10 @@ public class UIHelper {
 			}
 		}
 		return false;
+	}
+	
+	public static IEventBroker getEventBroker() {
+		IWorkbench workbench = Activator.getDefault().getWorkbench();
+		return workbench.getService(IEventBroker.class);
 	}
 }
