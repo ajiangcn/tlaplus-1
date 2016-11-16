@@ -51,7 +51,6 @@ import org.eclipse.jface.text.ITypedRegion;
 import org.eclipse.ui.editors.text.FileDocumentProvider;
 import org.eclipse.ui.part.FileEditorInput;
 import org.lamport.tla.toolbox.Activator;
-import org.lamport.tla.toolbox.editor.basic.TLAUnicodeReplacer;
 import org.lamport.tla.toolbox.tool.tlc.launch.IModelConfigurationConstants;
 import org.lamport.tla.toolbox.tool.tlc.model.Formula;
 import org.lamport.tla.toolbox.tool.tlc.model.Model;
@@ -63,6 +62,7 @@ import org.lamport.tla.toolbox.tool.tlc.output.source.TLCRegionContainer;
 import org.lamport.tla.toolbox.tool.tlc.ui.TLCUIActivator;
 import org.lamport.tla.toolbox.tool.tlc.util.ModelHelper;
 import org.lamport.tla.toolbox.util.AdapterFactory;
+import org.lamport.tla.toolbox.util.TLAUnicodeReplacer;
 import org.lamport.tla.toolbox.util.UIHelper;
 
 import tla2sany.st.Location;

@@ -27,13 +27,13 @@ import org.eclipse.ui.forms.IManagedForm;
 import org.eclipse.ui.forms.SectionPart;
 import org.eclipse.ui.forms.widgets.FormToolkit;
 import org.eclipse.ui.forms.widgets.Section;
-import org.lamport.tla.toolbox.editor.basic.TLAUnicodeReplacer;
 import org.lamport.tla.toolbox.tool.tlc.model.Assignment;
 import org.lamport.tla.toolbox.tool.tlc.model.Formula;
 import org.lamport.tla.toolbox.tool.tlc.ui.editor.page.BasicFormPage;
 import org.lamport.tla.toolbox.tool.tlc.ui.editor.provider.FormulaContentProvider;
 import org.lamport.tla.toolbox.tool.tlc.ui.util.FormHelper;
 import org.lamport.tla.toolbox.tool.tlc.ui.wizard.FormulaWizard;
+import org.lamport.tla.toolbox.util.TLAUnicodeReplacer;
 
 import tla2unicode.Unicode;
 
